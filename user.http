@@ -1,0 +1,30 @@
+// GET USER
+GET http://127.0.0.1:3333/api/me HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIsImlhdCI6MTY5NTMxNTg2Nn0.pczAnX_GspDvPECj89alsFLhj7GvJ-4Rbh-8_jvt428
+# Authorization: bearer {copy your code login here}
+
+###
+
+// REGISTER
+
+POST http://127.0.0.1:3333/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "test",
+    "email": "test2@gmail.com",
+    "password": "12345"
+}
+
+// LOGIN
+###
+
+POST http://127.0.0.1:3333/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "12345"
+}
+
