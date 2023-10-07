@@ -1,7 +1,7 @@
 // GET USER
 GET http://127.0.0.1:3333/api/me HTTP/1.1
 content-type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIsImlhdCI6MTY5NTMxNTg2Nn0.pczAnX_GspDvPECj89alsFLhj7GvJ-4Rbh-8_jvt428
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIsImlhdCI6MTY5NjI2MTc1Mn0.-f4eA1L9DH39b_paJpf-Kj3sHkO1pEjvjDyNW9LFFK0
 # Authorization: bearer {copy your code login here}
 
 ###
@@ -27,4 +27,3 @@ content-type: application/json
     "email": "test@gmail.com",
     "password": "12345"
 }
-
